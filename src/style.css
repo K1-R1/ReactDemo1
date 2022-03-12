@@ -40,6 +40,10 @@ body {
 main {
     padding: 57px 27px;
     color: #DEEBF8;
+    background-image: url(./img/logo192.png);
+    background-repeat: no-repeat;
+    background-position-x: 25%;
+    background-position-y: 50%;
 }
 
 .main--title {
