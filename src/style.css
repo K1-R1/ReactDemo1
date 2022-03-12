@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #282D35;
 }
 
 .navbar {
@@ -34,4 +35,28 @@ body {
 .navbar > img {
     height: 30px;
     margin-right: 7px;
+}
+
+main {
+    padding: 57px 27px;
+    color: #DEEBF8;
+}
+
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    }
+
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li {
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
